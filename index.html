@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>O Seară Specială</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="moon"></div>
+    <div class="hearts-container">
+        <div class="heart h1"></div>
+        <div class="heart h2"></div>
+        <div class="heart h3"></div>
+        <div class="heart h4"></div>
+    </div>
+
+    <div class="game-container">
+        <h1 id="title">Unde mergem diseară?</h1>
+        <p class="subtitle">Alege un pahar!</p>
+        
+        <button id="start-btn">Incepe Magia ❤️</button>
+
+        <div class="cups-wrapper">
+            <div class="cup" data-index="0">
+                <div class="cup-design">
+                    <div class="cup-rim"></div>
+                </div>
+            </div>
+            <div class="cup" data-index="1">
+                <div class="cup-design">
+                    <div class="cup-rim"></div>
+                </div>
+            </div>
+            <div class="cup" data-index="2">
+                <div class="cup-design">
+                    <div class="cup-rim"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="winner-modal" class="hidden">
+        <div class="modal-content">
+            <h2>Pregătește-te...</h2>
+            <h3>Diseară ne răsfățăm la:</h3>
+            <h1 id="restaurant-name">Nume Restaurant</h1>
+            <p class="hearts-divider">✦ 💖 ✦</p>
+            <p class="footer-msg">Abia aștept!</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
