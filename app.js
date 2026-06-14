@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
         "Sushi",
         "Ramen",
         "Cannoleria",
-        "Storia"
+        "Storia",
+        "Casa Koreana"
     ];
 
     const cups = Array.from(document.querySelectorAll(".cup"));
